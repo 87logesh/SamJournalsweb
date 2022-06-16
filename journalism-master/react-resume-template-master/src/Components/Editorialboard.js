@@ -24,77 +24,35 @@ class Editorialboard extends Component {
 
     return (
       <section id="editorialboard">
-
-      <div className="row education">
-
-      <div className="tab-content bg-white col-sm-12">
-      <div className="table table-responsive ">
-                            <table className="table table-bordered">
-                              <tbody><tr>
-                                  <td width="50">Programme</td>
-                                  <td width="50">No of Sections</td>
-                                  <td width="50">Syllabus</td>
-                                  <td width="50">Commencement of the Programme</td>
-                                </tr>
-                                <tr>
-                                    <td>B.COM(GENERAL)</td>
-                                    <td>-</td>
-                                    <td><a href="#" target="_blank">2021</a></td>
-                                    <td>2012</td>
-                                    </tr>
-                                  <tr>
-                                    <td>B.COM(CA)</td>
-                                    <td>-</td>
-                                    <td><a href="#" target="_blank">2021</a></td>
-                                    <td>2012</td>
-                                  </tr>
-                                  <tr>
-                                    <td>M.COM</td>
-                                    <td>-</td>
-                                    <td><a href="#" target="_blank">2021</a></td>
-                                    <td>2016</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                            </div>
-
-
-       </div>
-      </div>
-
-
-      {/* <div className="row work">
-
-         <div className="three columns header-col">
-            <h1><span>Work</span></h1>
-         </div>
-
-         <div className="nine columns main-col">
-          {work}
+        <div className="row">
+          <table className="table table-bordered">
+            <tr>
+              <th>Programme</th>
+              <th>No of Sections</th>
+              <th>Syllabus</th>
+              <th>Commencement of the Programme</th>
+            </tr>
+            <tr>
+              <td>B.COM(GENERAL)</td>
+              <td>-</td>
+              <td>2021</td>
+              <td>2012</td>
+            </tr>
+            <tr>
+              <td>B.COM(CA)</td>
+              <td>-</td>
+              <td>2021</td>
+              <td>2012</td>
+            </tr>
+            <tr>
+              <td>M.COM</td>
+              <td>-</td>
+              <td>2021</td>
+              <td>2016</td>
+            </tr>
+          </table>
         </div>
-    </div> */}
-
-
-
-      {/* <div className="row skill">
-
-         <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
-
-         <div className="nine columns main-col">
-
-            <p>{skillmessage}
-            </p>
-
-				<div className="bars">
-				   <ul className="skills">
-					  {skills}
-					</ul>
-				</div>
-			</div>
-      </div> */}
-   </section>
+    </section>
     );
   }
 }
